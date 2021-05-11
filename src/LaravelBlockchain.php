@@ -2,10 +2,10 @@
 
 namespace Lostlink\LaravelBlockchain;
 
-use ArkEcosystem\Crypto\Identities\Address;
-use ArkEcosystem\Crypto\Identities\PrivateKey;
-use ArkEcosystem\Crypto\Identities\PublicKey;
 use BitWasp\Bitcoin\Mnemonic\MnemonicFactory;
+use Lostlink\Ark\Crypto\Identities\Address;
+use Lostlink\Ark\Crypto\Identities\PrivateKey;
+use Lostlink\Ark\Crypto\Identities\PublicKey;
 use Lostlink\LaravelBlockchain\Models\Block;
 
 class LaravelBlockchain
